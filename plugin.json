@@ -1,21 +1,13 @@
 [{
-    "author": "Your Name",
-    "version": "Your Version",
-    "name": "Your Plugin Name",
-    "url": "https://github.com/Fluidbyte/Codiad-Plugin-Template.git",
+    "author": "Kent Safranski @fluidbye",
+    "version": "0.2",
+    "name": "GitTools",
+    "url": "https://github.com/Fluidbyte/Codiad-GitTools.git",
     "rightbar": [
         {
-            "action": "codiad.MY_PLUGIN.SOME_METHOD();",
-            "icon": "icon-NAME",
-            "title": "This will be displayed in the rightbar"
-        }
-    ],
-    "contextmenu": [
-        {
-            "action": "codiad.MY_PLUGIN.SOME_METHOD();",
-            "icon": "icon-NAME",
-            "applies-to": "both",
-            "title": "This will be displayed in the contextmenu"
+            "action": "codiad.gittools.open();",
+            "icon": "icon-github",
+            "title": "GitTools"
         }
     ]
 }]

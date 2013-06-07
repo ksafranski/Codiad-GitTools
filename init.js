@@ -1,5 +1,8 @@
-/*
- *  Place copyright or other info here...
+ /**
+ *  Codiad GitTools by Kent Safranski (@fluidbyte) <http://www.fluidbyte.net>
+ * 
+ *  This plugin/code is release competely free of any license or restrictions.
+ *  The software is released AS-IS without any waranty.
  */
 
 (function(global, $){
@@ -12,10 +15,10 @@
 
     // Instantiates plugin
     $(function() {    
-        codiad.MYPLUGIN.init();
+        codiad.gittools.init();
     });
 
-    codiad.MYPLUGIN = {
+    codiad.gittools = {
         
         // Allows relative `this.path` linkage
         path: curpath,
@@ -25,13 +28,12 @@
             // Start your plugin here...
 
         },
-
-        /**
-         * 
-         * This is where the core functionality goes, any call, references,
-         * script-loads, etc...
-         * 
-         */
+        
+        open: function() {
+            
+            alert('Called!');
+            
+        }
 
     };
 
